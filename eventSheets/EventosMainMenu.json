@@ -1,0 +1,48 @@
+{
+	"name": "EventosMainMenu",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Jugar",
+					"sid": 332242221513113
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 688751471367420,
+					"parameters": {
+						"layout": "\"Tutorial\""
+					}
+				}
+			],
+			"sid": 602496500524627
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Niveles",
+					"sid": 510967865316006
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 752660328379790,
+					"parameters": {
+						"layout": "Selector de niveles"
+					}
+				}
+			],
+			"sid": 747027635864669
+		}
+	],
+	"sid": 930595755691357
+}
