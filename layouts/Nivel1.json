@@ -58,7 +58,9 @@
 					"uid": 21,
 					"sid": 647040484638465,
 					"tags": "",
-					"instanceVariables": {},
+					"instanceVariables": {
+						"VidaPersonaje": 3
+					},
 					"behaviors": {
 						"Plataforma": {
 							"properties": {

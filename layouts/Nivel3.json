@@ -58,7 +58,9 @@
 					"uid": 70,
 					"sid": 980792661974849,
 					"tags": "",
-					"instanceVariables": {},
+					"instanceVariables": {
+						"VidaPersonaje": 3
+					},
 					"behaviors": {
 						"Plataforma": {
 							"properties": {
@@ -184,8 +186,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 535,
-						"y": 282,
+						"x": 607,
+						"y": 377,
 						"width": 96,
 						"height": 32,
 						"originX": 2.6666666666666665,
@@ -231,8 +233,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 630,
-						"y": 282,
+						"x": 605.437811624889,
+						"y": 71.85643057168224,
 						"width": 96,
 						"height": 32,
 						"originX": 2.6666666666666665,
@@ -278,8 +280,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 779.604396358657,
-						"y": 161.1665605448558,
+						"x": 700.8528789017143,
+						"y": 219.07533638412679,
 						"width": 96,
 						"height": 32,
 						"originX": 2.6666666666666665,
@@ -325,8 +327,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 909.4498962666567,
-						"y": 20.968170537399033,
+						"x": 701,
+						"y": 377.0669852395805,
 						"width": 96,
 						"height": 32,
 						"originX": 2.6666666666666665,
@@ -384,7 +386,7 @@
 				{
 					"type": "Texto",
 					"properties": {
-						"text": "Cual es el tamaño de almacenamiento mas grande?",
+						"text": "Este es el nivel 3",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 12,
@@ -461,8 +463,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 433.7924575633702,
-						"y": 382.94438433915855,
+						"x": 506.19188383206773,
+						"y": 300.29975623998496,
 						"width": 30.706894512407786,
 						"height": 29.434601657290326,
 						"originX": 0.5,
@@ -501,8 +503,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 575.0396728515625,
-						"y": 260.48001865584723,
+						"x": 390.62603990299334,
+						"y": 171.68826945838802,
 						"width": 30.706894512407786,
 						"height": 29.434601657290326,
 						"originX": 0.5,
@@ -541,8 +543,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 702.0119400081735,
-						"y": 122.98937482712057,
+						"x": 722.5023436691256,
+						"y": 156.45703414000906,
 						"width": 30.706894512407786,
 						"height": 29.434601657290326,
 						"originX": 0.5,
@@ -597,8 +599,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 405.99378457130297,
-						"y": 341.6220677903861,
+						"x": 478.3932108400005,
+						"y": 258.9774396912125,
 						"width": 64.31844895409114,
 						"height": 21.78947010830865,
 						"originX": 0,
@@ -653,8 +655,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 560.764691680289,
-						"y": 214.64979811166128,
+						"x": 376.3510587317199,
+						"y": 125.85804891420207,
 						"width": 37.27111612163429,
 						"height": 21.78947010830865,
 						"originX": 0,
@@ -709,12 +711,153 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 682.4776967175466,
-						"y": 86.92630006029228,
+						"x": 702.9681003784987,
+						"y": 120.39395937318076,
 						"width": 64.31844895409114,
 						"height": 21.78947010830865,
 						"originX": 0,
 						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Escenario",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Plataforma 2",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 89,
+					"sid": 131887519656125,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"Sólido": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"instanceFolderItem": {
+						"sid": 131887519656125,
+						"expanded": true,
+						"folderName": "",
+						"indexInFolder": -1,
+						"folderNestingLevel": -1
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 929.6986544634929,
+						"y": 58.46410764292057,
+						"width": 96,
+						"height": 32,
+						"originX": 2.6666666666666665,
+						"originY": -4,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Escenario",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Plataforma 2",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 90,
+					"sid": 835803098988698,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"Sólido": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"instanceFolderItem": {
+						"sid": 835803098988698,
+						"expanded": true,
+						"folderName": "",
+						"indexInFolder": -1,
+						"folderNestingLevel": -1
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 795.935488984942,
+						"y": 377,
+						"width": 96,
+						"height": 32,
+						"originX": 2.6666666666666665,
+						"originY": -4,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Escenario",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Plataforma 2",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 91,
+					"sid": 546053162856214,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"Sólido": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"instanceFolderItem": {
+						"sid": 546053162856214,
+						"expanded": true,
+						"folderName": "",
+						"indexInFolder": -1,
+						"folderNestingLevel": -1
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 889.935488984942,
+						"y": 377.0669852395805,
+						"width": 96,
+						"height": 32,
+						"originX": 2.6666666666666665,
+						"originY": -4,
 						"color": [
 							1,
 							1,

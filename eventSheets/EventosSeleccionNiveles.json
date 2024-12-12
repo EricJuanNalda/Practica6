@@ -1,0 +1,90 @@
+{
+	"name": "EventosSeleccionNiveles",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "N1",
+					"sid": 997241812535213
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 177438819764027,
+					"parameters": {
+						"layout": "Nivel1"
+					}
+				}
+			],
+			"sid": 230482493721600
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "N2",
+					"sid": 741423467530508
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 668238994974925,
+					"parameters": {
+						"layout": "Nivel2"
+					}
+				}
+			],
+			"sid": 372420319458436
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "N3",
+					"sid": 201014763918815
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 190331622761854,
+					"parameters": {
+						"layout": "Nivel3"
+					}
+				}
+			],
+			"sid": 736732185591880
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Volver",
+					"sid": 505907789346773
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 597152972652106,
+					"parameters": {
+						"layout": "MainMenu"
+					}
+				}
+			],
+			"sid": 655209324046212
+		}
+	],
+	"sid": 291400213732734
+}

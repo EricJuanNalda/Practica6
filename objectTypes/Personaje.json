@@ -3,7 +3,15 @@
 	"plugin-id": "Sprite",
 	"sid": 970528285903404,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "VidaPersonaje",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 691779651401990
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Platform",

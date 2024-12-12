@@ -58,7 +58,9 @@
 					"uid": 2,
 					"sid": 628235907126792,
 					"tags": "",
-					"instanceVariables": {},
+					"instanceVariables": {
+						"VidaPersonaje": 3
+					},
 					"behaviors": {
 						"Plataforma": {
 							"properties": {
@@ -1280,6 +1282,156 @@
 							1,
 							1
 						]
+					}
+				},
+				{
+					"type": "Vida1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "VidaLlena",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 95,
+					"sid": 895473472304863,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"Ancla": {
+							"properties": {
+								"left-edge": "window-left",
+								"top-edge": "window-top",
+								"right-edge": "none",
+								"bottom-edge": "none",
+								"enabled": true
+							}
+						}
+					},
+					"instanceFolderItem": {
+						"sid": 895473472304863,
+						"expanded": true,
+						"folderName": "",
+						"indexInFolder": -1,
+						"folderNestingLevel": -1
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 685.9498111257689,
+						"y": 44.82754262097343,
+						"width": 31.769121285942177,
+						"height": 31.769121285942177,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Vida2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "VidaLlena",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 96,
+					"sid": 375902235225344,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"Ancla": {
+							"properties": {
+								"left-edge": "window-left",
+								"top-edge": "window-top",
+								"right-edge": "none",
+								"bottom-edge": "none",
+								"enabled": true
+							}
+						}
+					},
+					"instanceFolderItem": {
+						"sid": 375902235225344,
+						"expanded": true,
+						"folderName": "",
+						"indexInFolder": -1,
+						"folderNestingLevel": -1
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 731.7985052944216,
+						"y": 44.82754387916434,
+						"width": 31.769121285942177,
+						"height": 31.769121285942177,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Vida3",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "VidaLlena",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 97,
+					"sid": 192381533277109,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"Ancla": {
+							"properties": {
+								"left-edge": "window-left",
+								"top-edge": "window-top",
+								"right-edge": "none",
+								"bottom-edge": "none",
+								"enabled": true
+							}
+						}
+					},
+					"instanceFolderItem": {
+						"sid": 192381533277109,
+						"expanded": true,
+						"folderName": "",
+						"indexInFolder": -1,
+						"folderNestingLevel": -1
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 779.1313429330187,
+						"y": 45.57885741614291,
+						"width": 31.769121285942177,
+						"height": 31.769121285942177,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
 					}
 				}
 			],

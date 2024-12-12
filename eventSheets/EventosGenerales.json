@@ -160,12 +160,34 @@
 			],
 			"actions": [
 				{
+					"type": "comment",
+					"text": "Caida del personaje"
+				},
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Personaje",
+					"sid": 139892482122692,
+					"parameters": {
+						"instance-variable": "VidaPersonaje",
+						"value": "1"
+					}
+				},
+				{
 					"id": "set-position",
 					"objectClass": "Personaje",
-					"sid": 413944786716641,
+					"sid": 277249917422812,
 					"parameters": {
 						"x": "209",
 						"y": "394"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Personaje",
+					"sid": 589006181234565,
+					"parameters": {
+						"instance-variable": "VidaPersonaje",
+						"value": "Personaje.VidaPersonaje"
 					}
 				}
 			],
@@ -191,6 +213,156 @@
 				}
 			],
 			"sid": 288616569802411
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-released",
+					"objectClass": "Teclado",
+					"sid": 167810821654128,
+					"parameters": {
+						"key": 37
+					}
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 822829185030136,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"type": "comment",
+					"text": "Completar mision de moverse (TUTORIAL)"
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "TickMision1",
+					"sid": 220470732613242,
+					"parameters": {
+						"animation": "\"TickOn\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 852802840397635
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Personaje",
+					"sid": 962007489665789,
+					"parameters": {
+						"instance-variable": "VidaPersonaje",
+						"comparison": 0,
+						"value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Vida1",
+					"sid": 327157404623316,
+					"parameters": {
+						"animation": "\"VidaVacia\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 388832644805755,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Personaje",
+							"sid": 757746442399471,
+							"parameters": {
+								"instance-variable": "VidaPersonaje",
+								"comparison": 0,
+								"value": "1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Vida2",
+							"sid": 162040052926438,
+							"parameters": {
+								"animation": "\"VidaVacia\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 763194495496329,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Personaje",
+									"sid": 566575057146170,
+									"parameters": {
+										"instance-variable": "VidaPersonaje",
+										"comparison": 0,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "Vida3",
+									"sid": 375170182155138,
+									"parameters": {
+										"animation": "\"VidaVacia\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 825642494026069,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "Personaje",
+											"sid": 355932183044940,
+											"parameters": {
+												"instance-variable": "VidaPersonaje",
+												"comparison": 0,
+												"value": "-1"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "go-to-layout",
+											"objectClass": "System",
+											"sid": 658871943073221,
+											"parameters": {
+												"layout": "MainMenu"
+											}
+										}
+									],
+									"sid": 561869303929862
+								}
+							]
+						}
+					]
+				}
+			]
 		}
 	],
 	"sid": 852041745274652
