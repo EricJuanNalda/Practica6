@@ -58,7 +58,10 @@
 					"uid": 21,
 					"sid": 647040484638465,
 					"tags": "",
-					"instanceVariables": {},
+					"instanceVariables": {
+						"VidaPersonaje": 3,
+						"Respuesta": 0
+					},
 					"behaviors": {
 						"Plataforma": {
 							"properties": {
@@ -382,7 +385,7 @@
 					}
 				},
 				{
-					"type": "Texto",
+					"type": "MisionNivel1",
 					"properties": {
 						"text": "Cual es el tamaño de almacenamiento mas grande?",
 						"enable-bbcode": true,
@@ -409,7 +412,9 @@
 					"uid": 42,
 					"sid": 565019086921837,
 					"tags": "",
-					"instanceVariables": {},
+					"instanceVariables": {
+						"RespuestaCorrecta": 3
+					},
 					"behaviors": {},
 					"instanceFolderItem": {
 						"sid": 565019086921837,
@@ -449,7 +454,9 @@
 					"uid": 43,
 					"sid": 370571750812870,
 					"tags": "",
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Respuesta1": 1
+					},
 					"behaviors": {},
 					"instanceFolderItem": {
 						"sid": 370571750812870,
@@ -489,7 +496,9 @@
 					"uid": 44,
 					"sid": 251041392473640,
 					"tags": "",
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Respuesta2": 2
+					},
 					"behaviors": {},
 					"instanceFolderItem": {
 						"sid": 251041392473640,
@@ -529,7 +538,9 @@
 					"uid": 45,
 					"sid": 358355312913586,
 					"tags": "",
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Respuesta3": 3
+					},
 					"behaviors": {},
 					"instanceFolderItem": {
 						"sid": 358355312913586,

@@ -36,6 +36,13 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Anchor",
+			"name": "Ancla",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Platform",
 			"name": "Plataforma",
 			"author": "Scirra",
@@ -86,13 +93,17 @@
 			"TickOpcion1",
 			"TickOpcion2",
 			"TickOpcion3",
-			"Texto",
+			"MisionNivel1",
 			"FondoSelectorNiveles",
 			"Texto2",
 			"N1",
 			"N2",
 			"N3",
-			"Volver"
+			"Volver",
+			"Vida1",
+			"Vida2",
+			"Vida3",
+			"FinTuto"
 		],
 		"subfolders": []
 	},
@@ -118,7 +129,9 @@
 			"EventosGenerales",
 			"EventosMainMenu",
 			"MisionesTutorial",
-			"EventosSeleccionNiveles"
+			"EventosSeleccionNiveles",
+			"EventosUI",
+			"EventosTutorial"
 		],
 		"subfolders": []
 	},

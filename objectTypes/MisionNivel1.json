@@ -1,0 +1,17 @@
+{
+	"name": "MisionNivel1",
+	"plugin-id": "Text",
+	"sid": 947214968060952,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "RespuestaCorrecta",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 736232253496680
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

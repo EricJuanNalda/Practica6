@@ -58,7 +58,10 @@
 					"uid": 55,
 					"sid": 759289075392533,
 					"tags": "",
-					"instanceVariables": {},
+					"instanceVariables": {
+						"VidaPersonaje": 3,
+						"Respuesta": 0
+					},
 					"behaviors": {
 						"Plataforma": {
 							"properties": {
@@ -382,7 +385,7 @@
 					}
 				},
 				{
-					"type": "Texto",
+					"type": "MisionNivel1",
 					"properties": {
 						"text": "Este es el nivel 2",
 						"enable-bbcode": true,
@@ -409,7 +412,9 @@
 					"uid": 62,
 					"sid": 515385995355365,
 					"tags": "",
-					"instanceVariables": {},
+					"instanceVariables": {
+						"RespuestaCorrecta": 3
+					},
 					"behaviors": {},
 					"instanceFolderItem": {
 						"sid": 515385995355365,
@@ -449,7 +454,9 @@
 					"uid": 63,
 					"sid": 727945220461403,
 					"tags": "",
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Respuesta1": 1
+					},
 					"behaviors": {},
 					"instanceFolderItem": {
 						"sid": 727945220461403,
@@ -489,7 +496,9 @@
 					"uid": 64,
 					"sid": 959134853905131,
 					"tags": "",
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Respuesta2": 2
+					},
 					"behaviors": {},
 					"instanceFolderItem": {
 						"sid": 959134853905131,
@@ -529,7 +538,9 @@
 					"uid": 65,
 					"sid": 292547684151361,
 					"tags": "",
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Respuesta3": 3
+					},
 					"behaviors": {},
 					"instanceFolderItem": {
 						"sid": 292547684151361,

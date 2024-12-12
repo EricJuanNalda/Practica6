@@ -1,40 +1,38 @@
 {
-	"name": "TickOpcion1",
+	"name": "Vida2",
 	"plugin-id": "Sprite",
-	"sid": 111098232324985,
+	"sid": 102036928463102,
 	"isGlobal": false,
-	"instanceVariables": [
+	"instanceVariables": [],
+	"behaviorTypes": [
 		{
-			"name": "Respuesta1",
-			"type": "number",
-			"desc": "",
-			"show": true,
-			"sid": 367099059215058
+			"behaviorId": "Anchor",
+			"name": "Ancla",
+			"sid": 951668668076206
 		}
 	],
-	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 200,
-						"height": 200,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 9170047,
+						"imageSpriteId": 6841060,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 860504559660823,
-				"name": "TickOff",
+				"sid": 631388332659704,
+				"name": "VidaLlena",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
@@ -44,22 +42,22 @@
 			{
 				"frames": [
 					{
-						"width": 200,
-						"height": 200,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 4510518,
+						"imageSpriteId": 9024781,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 946048077225483,
-				"name": "TickOn",
+				"sid": 268871954010442,
+				"name": "VidaVacia",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
